@@ -16,7 +16,7 @@ fn main() {
     let mut grid = Grid::new();
     let (width, height) = (grid.window_width, grid.window_height);
     let window = video_subsystem
-        .window("Liquid Sim", width as u32, height as u32)
+        .window("Game of life", width as u32, height as u32)
         .position_centered()
         .build()
         .unwrap();
